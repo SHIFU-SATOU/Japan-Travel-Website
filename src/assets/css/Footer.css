@@ -1,0 +1,43 @@
+.Footer {
+    display: block;
+    text-align: center;
+}
+
+.Footer__Sitemap {
+    display: block;
+    background: #ccc;
+}
+
+.Footer__Sitemap::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.Footer__Sitemap > .container ul {
+    padding: 16px 0;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 64px;
+}
+
+.Footer__Sitemap > .container ul > li {
+    display: inline-block;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.Footer__copy-right {
+    background: black;
+    color: #ccc;
+    padding: 32px 0;
+}
+
+.Social-Network {
+    font-size: 32px;
+}
+
+.Social-Network > .col {
+    padding: 0 4px;
+    cursor: pointer;
+}

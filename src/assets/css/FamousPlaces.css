@@ -1,0 +1,40 @@
+.Famous-places {
+    text-align: center;
+    background: #eec9d2;
+    padding: 32px 0 64px 0;
+}
+
+.Famous-places .place {
+    position: relative;
+    cursor: pointer;
+}
+
+.Famous-places .place:hover{
+    opacity: 0.4;
+}
+
+.Famous-places .place .place-name {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+    bottom: 1em;
+}
+
+.Famous-places .place img {
+    border-radius: 16px;
+}
+
+.--large-picture {
+    height: 20em;
+}
+
+.--small-picture {
+    height: 9.5em;
+}
+
+.--large-cap {
+    font-size: 24px;
+}

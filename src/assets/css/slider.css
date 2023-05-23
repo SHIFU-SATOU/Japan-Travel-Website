@@ -1,0 +1,19 @@
+.Slider {
+    position: relative;
+}
+
+.Slider > img {
+    width: 100%;
+}
+
+.Slider > p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 4%;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    text-shadow: black 4px 4px 8px;
+}

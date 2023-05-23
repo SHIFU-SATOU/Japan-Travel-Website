@@ -1,0 +1,122 @@
+.post {
+    margin-top: 68px;
+    width: 100vw;
+    background-color: rgba(204, 204, 204, 0.4);
+    padding-bottom: 64px;
+}
+
+.post figcaption {
+    margin-bottom: 16px;
+    color: #757575;
+    text-align: center;
+}
+
+.post .slider {
+    position: relative;
+}
+
+.post .slider img {
+    width: 100%;
+}
+
+.post .slider figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-shadow: black 4px 4px 4px;
+    transform: translateX(-50%);
+}
+
+.post .slider h1 {
+    font-size: 80px;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 0 64px;
+}
+
+.post .slider h3 {
+    font-size: 40px;
+    margin: 16px 0;
+}
+
+.post-content img {
+    width: 32em;
+    border-radius: 12px;
+}
+
+.post-content h2 {
+    margin: 16px 0;
+}
+
+.post-content p {
+    text-align: justify;
+}
+
+.post a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lemonchiffon;
+    font-size: 16px;
+    line-height: 1.6;
+    text-shadow: black 1px 1px 1px;
+}
+
+.post a:hover {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+.post .container {
+    margin: 32px auto 0 auto;
+    padding: 8px;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.post .post-name {
+    padding: 16px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 4px;
+    border-bottom: black solid 1px;
+}
+
+.post .post-name h1 {
+    margin-left: 32px;
+}
+
+.post .post-description {
+    margin: 8px 0 32px 0;
+}
+
+.post .post-description p {
+    display: inline-block;
+    margin-right: 16px;
+    text-align: justify;
+}
+
+.post .post-description i {
+    margin-right: 4px;
+}
+
+.post .post-content::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.design-1 {
+    float: left;
+    margin-right: 16px;
+}
+
+.design-2 {
+    float: right;
+    margin-left: 16px;
+}
+
+.post .row::after {
+    display: table;
+    content: "";
+    clear: both;
+}

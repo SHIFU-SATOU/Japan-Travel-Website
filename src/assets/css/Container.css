@@ -1,0 +1,13 @@
+.Container {
+    display: block;
+    margin-top: 68px;
+    width: 100%;
+    min-height: 1000px;
+    /* background-color: cornflowerblue; */
+}
+.Container::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+

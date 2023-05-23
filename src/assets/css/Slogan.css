@@ -1,0 +1,22 @@
+.Slogan {
+    position: relative;
+    max-width: 1000px;
+    margin: 32px auto;
+}
+
+.Slogan > img {
+    width: 100%;
+    opacity: 0.8;
+    border-radius: 16px;
+}
+
+.Slogan > P {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    color: white;
+    font-size: 28px;
+    text-shadow: #757575 2px 2px 2px;
+}

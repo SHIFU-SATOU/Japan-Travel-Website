@@ -1,0 +1,135 @@
+a {
+    text-decoration: none;
+}
+
+.Header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 0 16%;
+    text-align: center;
+    background: lightpink;
+}
+
+.Header::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.Logo {
+    float: left;
+    cursor: pointer;
+}
+
+.Logo img {
+    height: 4em;
+    ;
+}
+
+.Header__Navigation-bar {
+    display: inline-block;
+}
+
+.Header__Navigation-bar>li {
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 20px;
+    color: white;
+    text-shadow: black 1px 1px 2px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Header__Navigation-bar > li:hover > b {
+    color: #757575;
+    text-shadow: white 2px 2px 2px;
+}
+
+.Header__Navigation-bar > li:hover > .Header__Sub-navigation {
+    display: block;
+}
+
+.Header__Sub-navigation {
+    display: none;
+    padding: 0 20% 32px 20%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100vw;
+    background: white;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    text-shadow: none;
+    text-align: left;
+}
+
+.Header__Sub-navigation ::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.Header__Sub-navigation li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.Header__Sub-navigation li:hover > a {
+    text-decoration: underline;;
+}
+
+.Header__Sub-navigation p {
+    text-align: left;
+    padding: 16px 0;
+}
+
+.Header__Sub-navigation ul {
+    list-style-type: none;
+}
+
+.Header__Sub-navigation .item {
+    float: left;
+    margin: 0 8px;
+}
+
+.Header__Sub-navigation .item:hover img {
+    opacity: 0.6;
+}
+
+.Header__Sub-navigation .item img {
+    width: 8em;
+    min-height: 4em;
+    border-radius: 12px;
+}
+
+.Header__Search-bar {
+    display: inline-block;
+    padding: 16px 32px;
+}
+
+.Header__Search-bar>input {
+    border-radius: 16px;
+    border: none;
+    margin-right: 16px;
+
+}
+
+.Header__Search-bar .Search-btn {
+    padding: 8px 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.Header__Search-bar>.Search-btn:hover .search-icon {
+    color: #757575;
+
+}
+
+.Header__Search-bar .search-icon {
+    font-size: 20px;
+    color: white;
+}
